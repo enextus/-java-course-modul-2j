@@ -2,6 +2,8 @@ package lesson01.sqr_recursive;
 
 import org.junit.jupiter.api.Test;
 
+import static org.junit.jupiter.api.Assertions.*;
+
 class SqrSolverTest {
 
     SqrSolver sqrSolver = new SqrSolver();
