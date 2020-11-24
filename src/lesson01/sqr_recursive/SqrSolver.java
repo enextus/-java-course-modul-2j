@@ -1,4 +1,4 @@
-package lesson01;
+package lesson01.sqr_recursive;
 
 /**
  * class SqrSolver
