@@ -2,6 +2,7 @@ package lesson01.hw;
 
 /**
  * class GcdSolver
+ * getGcd(m,n) (greatest common divisor)
  */
 public class GcdSolver {
 
