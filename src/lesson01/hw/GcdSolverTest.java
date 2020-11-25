@@ -27,4 +27,9 @@ class GcdSolverTest {
     public void test_nEquals462_1071_21() {
         assertEquals(21, gcdsolver.getGcd(462, 1071));
     }
+
+    @Test
+    public void test_nEquals100045_1071_21() {
+        assertEquals(21, gcdsolver.getGcd(100045cd , 1071));
+    }
 }
