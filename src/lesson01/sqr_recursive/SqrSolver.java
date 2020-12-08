@@ -12,8 +12,10 @@ public class SqrSolver {
      * @return n * n
      */
     public int sqr(int n) {
+
         if (n == 1)
             return 1;
+
         return sqr(n - 1) + n + n - 1;
     }
 }
