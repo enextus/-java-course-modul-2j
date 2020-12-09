@@ -32,4 +32,9 @@ class GcdSolverTest {
     public void test_nEquals100045_1071_21() {
         assertEquals(17, gcdsolver.getGcd(100045, 1071));
     }
+
+    @Test
+    public void test_nEquals1() {
+        assertEquals(1, gcdsolver.getGcd(1, 1));
+    }
 }
